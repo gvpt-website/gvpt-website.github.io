@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Classes on GVPT</title>
+    <link>/classes/</link>
+    <description>Recent content in Classes on GVPT</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    
+	<atom:link href="/classes/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>GVPT-388F</title>
+      <link>/classes/cuba/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/classes/cuba/</guid>
+      <description>This is a new course that combines lectures on campus in College Park with a study abroad component in Havana, Cuba.
+ The lectures on campus will focus on different strategies for studying foreign policy decision making.
+ The class will travel to Cuba to learn about several foreign policy events that shaped much of the foreign policy of the United States in this region.
+ Financial aid and/or need-based scholarships may be available.</description>
+    </item>
+    
+    <item>
+      <title>Political Behavior</title>
+      <link>/classes/france/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/classes/france/</guid>
+      <description>This is a course in development that will look at public opinion in Paris, France.</description>
+    </item>
+    
+  </channel>
+</rss>
