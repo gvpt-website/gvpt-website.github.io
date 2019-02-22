@@ -9,24 +9,26 @@ function search_table() {
     tr = table.getElementsByTagName("tr");
     
     // Loop through all table rows, and hide those who don't match the search query
-    for (i = 0; i < tr.length; i++) {
-        td_class = tr[i].getElementsByTagName("td")[0];
-        td_country = tr[i].getElementsByTagName("td")[1];
-        td_professor = tr[i].getElementsByTagName("td")[2];
+    for (row = 0; row < tr.length; row++) {
+        show = false;
+        t_cols = tr[row].getElementsByTagName("td");
 
-        if (td_class) {
-            class_value = td_class.textContent || td_class.innerText;
-            country_value = td_country.textContent || td_country.innerText;
-            professor_value = td_professor.textContent || td_professor.innerText;
-            if (class_value.toUpperCase().indexOf(filter) > -1) {
-                tr[i].style.display = "";
-            } else if (country_value.toUpperCase().indexOf(filter) > -1) {
-                tr[i].style.display = "";
-            } else if (professor_value.toUpperCase().indexOf(filter) > -1) {
-                tr[i].style.display = "";
-            } else {
-                tr[i].style.display = "none";
+        for (col = 0; col < t_cols.length; col++) {
+            td_element = t_cols[col];
+
+            if (td_element && !show) {
+                td_value = td_element.textContent || td_element.innerText;
+
+                if (td_value.toUpperCase().indexOf(filter) > -1) {
+                    show = true;
+                }
             }
-        } 
+        }
+
+        if (show) {
+            tr[row].style.display = "";
+        } else {
+            tr[row].style.display = "none";
+        }
     }
 }
