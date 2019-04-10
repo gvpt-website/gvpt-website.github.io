@@ -1,11 +1,10 @@
 
-
-function search_table() {
+function search_table(input_class, table_class) {
     // Declare variables 
     var input, filter, table, tr, td, i, txtValue;
-    input = document.getElementsByClassName("search_input")[0];
+    input = document.getElementsByClassName(input_class)[0];
     filter = input.value.toUpperCase();
-    table = document.getElementsByClassName("searchable")[0];
+    table = document.getElementsByClassName(table_class)[0];
     
     // Loop through all table rows, and hide those who don't match the search query
     tr = table.getElementsByTagName("tr");
