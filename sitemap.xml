@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>/about/</loc>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/classes/</loc>
+  </url>
+  
+  <url>
+    <loc>/classes/southafrica_uc/</loc>
+  </url>
+  
+  <url>
+    <loc>/classes/uk_manchester/</loc>
+  </url>
+  
+  <url>
+    <loc>/classes/cuba/</loc>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+  </url>
+  
+  <url>
+    <loc>/classes/brazil_ufsc/</loc>
+  </url>
+  
+  <url>
+    <loc>/classes/scotland_uoe/</loc>
+  </url>
+  
+  <url>
+    <loc>/classes/spain_slu_madrid/</loc>
+  </url>
+  
+  <url>
+    <loc>/classes/argentia_udesa/</loc>
+  </url>
+  
+  <url>
+    <loc>/classes/kosovo/</loc>
+  </url>
+  
+  <url>
+    <loc>/classes/france/</loc>
+  </url>
+  
+  <url>
+    <loc>/classes/southkorea_yonsei/</loc>
+  </url>
+  
+  <url>
+    <loc>/classes/netherlands_uva/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
